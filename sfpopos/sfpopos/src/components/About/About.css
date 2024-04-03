@@ -1,0 +1,15 @@
+/* Mobile Screens */
+@media screen and (max-width: 480px) {
+    .About {
+        font-size: 1.1em;
+        padding: 0.5em;
+    }
+}
+
+/* Tablet Screens */
+@media screen and (max-width: 768px) and (max-width: 820px) {
+    .About {
+        font-size: 1em;
+        padding: 0.9em;
+    }
+}

@@ -1,0 +1,25 @@
+/* Styling the Footer Component */
+.Footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+/* SFPOPOS and Copyright */
+.Footer_Name,
+.Footer_Year {
+    font-size: 0.9rem;
+    font-family: 'Helvetica', -apple-system, sans-serif;
+}
+
+/* Links for Home, About and List */
+.Footer_Link {
+    font-size: 0.9em;
+    font-family: 'Helvetica', -apple-system, sans-serif;
+}
+
+.Footer_Link:hover {
+    text-decoration: underline;
+ }
