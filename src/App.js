@@ -5,9 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* Creating a list of the items from data.js using map */}
+         {/* Creating a button and card component from data.js using map */}
           {allCategories.map((categoryName, index) => (
-            <ProductButton key={index} categoryName={categoryName} />
+            <>
+              <ProductButton key={index} categoryName={categoryName} />
+              <ProductCard />
+            </>
           ))}
       </header>
       {/* Product Card */}
